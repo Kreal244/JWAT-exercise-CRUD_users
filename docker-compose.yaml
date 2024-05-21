@@ -1,0 +1,11 @@
+services:
+  pratice-2:
+    image: "pratice-2"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - DATABASE_URL=postgres://user:iNIgMPokY8R2@ep-summer-bonus-66416149.ap-southeast-1.aws.neon.tech/life-travel 
