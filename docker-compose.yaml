@@ -1,6 +1,6 @@
 services:
-  pratice-2:
-    image: "pratice-2"
+  practice-2:
+    image: "practice-2"
     build:
       context: .
       dockerfile: Dockerfile
